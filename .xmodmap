@@ -1,0 +1,17 @@
+! have to clear the Caps_Lock key, because it is a function key
+clear Lock
+
+! Escape-key:
+keycode   9 = Caps_Lock NoSymbol Caps_Lock
+! Caps-lock-key:
+keycode  66 = Escape Escape Escape Escape
+! u-key:
+keycode  30 = u U dead_diaeresis dead_diaeresis
+! s-key:
+keycode  39 = s S ssharp U1E9E
+! *-key on the num-block:
+keycode  63 = colon colon colon colon
+! Super_L-key:
+keycode 133 = Mode_switch Mode_switch Mode_switch
+! Super_R-key:
+keycode 134 = Mode_switch Mode_switch Mode_switch

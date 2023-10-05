@@ -1,0 +1,11 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/ferdinandkieckhaefer/.config
+- /home/ferdinandkieckhaefer/Dokumente/02_code/control
+- /home/ferdinandkieckhaefer/Dokumente/02_code/dashboard-backend
+- /home/ferdinandkieckhaefer/.config/nvim
+startuppopupversion: 5
+customcommandshistory:
+- Started to use a .lua-file to configure nvim
+hidecommandlog: false
+ignorewhitespaceindiffview: false
