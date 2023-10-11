@@ -11,7 +11,7 @@ keycode  30 = u U dead_diaeresis dead_diaeresis
 keycode  39 = s S ssharp U1E9E
 ! *-key on the num-block:
 keycode  63 = colon colon colon colon
-! Super_L-key:
-keycode 133 = Mode_switch Mode_switch Mode_switch
+! Alt_L-key: 
+keycode 108 = Mode_switch Mode_switch Mode_switch
 ! Super_R-key:
-keycode 134 = Mode_switch Mode_switch Mode_switch
+!keycode 134 = Mode_switch Mode_switch Mode_switch
