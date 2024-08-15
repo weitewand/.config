@@ -8,3 +8,51 @@ gtk-3.0
 ibus/bus
 notion-app
 pulse
+draw.io/Cache/Cache_Data
+draw.io/Code Cache/js
+draw.io/Code Cache/wasm/index-dir
+draw.io/Code Cache/wasm
+draw.io/Crashpad
+draw.io/DawnCache
+draw.io/Dictionaries
+draw.io/GPUCache
+draw.io/IndexedDB/file__0.indexeddb.leveldb
+draw.io/Local Storage/leveldb
+draw.io/Session Storage
+draw.io/WebStorage
+draw.io/databases
+draw.io/logs
+draw.io
+enchant
+evince
+flameshot
+gedit
+gpick
+kicad/7.0/3d_viewer.json
+kicad/7.0/cvpcb.json
+kicad/7.0/eeschema.json
+kicad/7.0/fp-lib-table
+kicad/7.0/fpedit.json
+kicad/7.0/kicad.json
+kicad/7.0/kicad_common.json
+kicad/7.0/pcbnew.json
+kicad/7.0/sym-lib-table
+kicad/7.0/symbol_editor.json
+cef_user_data/Dictionaries
+chromium/Crash Reports
+libreoffice/4/user
+nautilus
+regolith2/od_patterns.png
+via-nativia/Cache/Cache_Data
+via-nativia/Code Cache
+via-nativia/DawnCache
+via-nativia/Dictionaries
+via-nativia/Crashpad
+via-nativia/GPUCache
+via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb
+via-nativia/Local Storage/leveldb
+via-nativia/Session Storage
+via-nativia/WebStorage
+via-nativia/databases
+via-nativia
+yelp

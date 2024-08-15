@@ -1,0 +1,194 @@
+# ~/.config/starship.toml
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Format defining the order of prompt elements
+format = """
+[](red)\
+$os\
+$username\
+[](bg:yellow fg:red)\
+$directory\
+[](fg:yellow bg:green)\
+$git_branch\
+$git_status\
+[](fg:green bg:cyan)\
+$git_state\
+$git_metrics\
+$hg_branch\
+$pijul_channel\
+$docker_context\
+$package\
+[](fg:cyan bg:blue)\
+$c\
+$cmake\
+$cobol\
+$daml\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$fennel\
+$golang\
+$guix_shell\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$gradle\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$opa\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$solidity\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$buf\
+$nix_shell\
+$conda\
+$meson\
+$spack\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$env_var\
+$crystal\
+$custom\
+$sudo\
+$time\
+[](fg:blue)\
+$battery\
+$cmd_duration\
+$line_break\
+$jobs\
+$status\
+$container\
+$shell\
+$character"""
+
+palette = "onedarknvim"
+
+[palettes.onedarknvim]
+black = "#282C34"
+blue = "#61afef"
+cyan = "#56b6c2"
+green = "#98c379"
+magenta = "#c678dd"
+red = "#e06c75"
+white = "#abb2bf"
+yellow = "#E5C07B"
+background = "#282C34"
+#background = "#1e2127"
+foreground1 = "#abb2bf"
+foreground2 = "#ffffff"
+
+[os]
+disabled = false
+style = "bg:red fg:black"
+[os.symbols]
+Alpine = " "
+Arch = " "
+Raspbian = " "
+Ubuntu = " "
+Windows = "󰖳 "
+
+[username]
+show_always = true
+style_user = "bg:red fg:black"
+format = '[ $user ]($style)'
+
+[directory]
+style = "fg:black bg:yellow"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = ""
+style = "bg:green"
+format = '[[ $symbol $branch ](fg:black bg:green)]($style)'
+
+[git_status]
+style = "bg:green"
+format = '[[($all_status$ahead_behind )](fg:black bg:green)]($style)'
+conflicted = ' $count '
+ahead = '󰶣 $count '
+behind = '󰶡 $count '
+diverged = '󰃻 '
+up_to_date = '[ ](fg:black bg:green)'
+untracked = ' $count '
+stashed = ' $count '
+modified = ' $count '
+staged = '[ $count](fg:black bg:green)'
+renamed = '󰪹 $count '
+deleted = ' $count '
+
+[battery]
+format = "with [$symbol$percentage]($style) "
+[[battery.display]]
+style = "bold red"
+threshold = 10
+[[battery.display]]
+style = "bold yellow"
+threshold = 30
+
+[git_metrics]
+disabled = false
+
+[python]
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+symbol = "🐍 "
+detect_extensions = ["py", "ipynb"]
+style = "fg:black bg:cyan"
+
+[shell]
+disabled = false
+fish_indicator = '󰈺 '
+bash_indicator = ' '
+powershell_indicator = '_'
+unknown_indicator = 'mystery shell'
+style = 'cyan bold'
+
+[status]
+disabled = false
+
+[sudo]
+disabled = false
+symbol = "👑 "
+
+[time]
+disabled = false
+format = '[ $time ]($style)' 
+style = "fg:black bg:blue"
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+

@@ -1,0 +1,4 @@
+!regolith.look.path: /usr/share/regolith-look/solarized-dark
+regolith.look.path: /usr/share/regolith-look/lascaille
+regolith.wallpaper.file: od_patterns.png
+wm.program.lock: /usr/bin/i3lock

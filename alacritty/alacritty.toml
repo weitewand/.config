@@ -24,3 +24,7 @@ yellow = "0xE5C07B"
 background = "0x282C34"
 #background = "0x1e2127"
 foreground = "0xabb2bf"
+
+[font.normal]
+family = "GeistMonoNerdFont"
+style = "Medium"

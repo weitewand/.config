@@ -1,11 +1,28 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/ferdinandkieckhaefer/.config
+- /home/ferdinandkieckhaefer/Dokumente/02_code/models
+- /home/ferdinandkieckhaefer/Dokumente/02_code/db-populate
+- /home/ferdinandkieckhaefer/Dokumente/02_code/dagster-energy
+- /home/ferdinandkieckhaefer/Dokumente/02_code/python-ovis-api
+- /home/ferdinandkieckhaefer/Dokumente/02_code/db-migrate
+- /home/ferdinandkieckhaefer/Dokumente/02_code/joule
+- /home/ferdinandkieckhaefer/Dokumente/02_code/ovis-cloud-config
 - /home/ferdinandkieckhaefer/Dokumente/02_code/control
-- /home/ferdinandkieckhaefer/Dokumente/02_code/dashboard-backend
+- /home/ferdinandkieckhaefer/Dokumente/02_code/control2
+- /home/ferdinandkieckhaefer/Dokumente/02_code/backend
+- /home/ferdinandkieckhaefer/Dokumente/02_code/dbt-poc
+- /home/ferdinandkieckhaefer/Dokumente/02_code/occupancy_configuration_batch
+- /home/ferdinandkieckhaefer/Dokumente/02_code/logDatabase
+- /home/ferdinandkieckhaefer/Dokumente/02_code/calculations
 - /home/ferdinandkieckhaefer/.config/nvim
+- /home/ferdinandkieckhaefer/.config/nvim/pack/plugins/start/indent-blankline.nvim
+- /home/ferdinandkieckhaefer/Dokumente/02_code/dashboard-backend
 startuppopupversion: 5
 customcommandshistory:
+- w
 - Started to use a .lua-file to configure nvim
+- q
+- 'chore: set up jupyter notebooks'
 hidecommandlog: false
 ignorewhitespaceindiffview: false
